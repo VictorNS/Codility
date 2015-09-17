@@ -3,8 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson1", "Lesson1", "{F2B21616-5DE4-47D2-8C4E-CA62EAD5B2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_TapeEquilibrium", "Lesson1\0_TapeEquilibrium\0_TapeEquilibrium.csproj", "{767D7E96-245D-4D54-B466-A44E8BC61622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_PermMissingElem", "Lesson1\1_PermMissingElem\1_PermMissingElem.csproj", "{6B8F15C4-40DE-4723-96DD-87FB23E608B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_FrogJmp", "Lesson1\2_FrogJmp\2_FrogJmp.csproj", "{E9E8C580-73A8-4394-983C-03F3DA24DCBF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{767D7E96-245D-4D54-B466-A44E8BC61622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767D7E96-245D-4D54-B466-A44E8BC61622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767D7E96-245D-4D54-B466-A44E8BC61622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767D7E96-245D-4D54-B466-A44E8BC61622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8F15C4-40DE-4723-96DD-87FB23E608B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8F15C4-40DE-4723-96DD-87FB23E608B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8F15C4-40DE-4723-96DD-87FB23E608B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8F15C4-40DE-4723-96DD-87FB23E608B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E8C580-73A8-4394-983C-03F3DA24DCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E8C580-73A8-4394-983C-03F3DA24DCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E8C580-73A8-4394-983C-03F3DA24DCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E8C580-73A8-4394-983C-03F3DA24DCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{767D7E96-245D-4D54-B466-A44E8BC61622} = {F2B21616-5DE4-47D2-8C4E-CA62EAD5B2A5}
+		{6B8F15C4-40DE-4723-96DD-87FB23E608B0} = {F2B21616-5DE4-47D2-8C4E-CA62EAD5B2A5}
+		{E9E8C580-73A8-4394-983C-03F3DA24DCBF} = {F2B21616-5DE4-47D2-8C4E-CA62EAD5B2A5}
 	EndGlobalSection
 EndGlobal
