@@ -5,7 +5,7 @@ namespace _0_Dominator
 {
 	class Program
 	{
-		static void Main(string[] args)
+		static void Main()
 		{
 			Console.WriteLine("Result: {0}", solution(new int[] { 3, 4, 3, 2, 3, -1, 3, 3 }));
 			Console.WriteLine("Result: {0}", solution(new int[] { }));
