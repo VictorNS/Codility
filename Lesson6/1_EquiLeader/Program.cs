@@ -114,5 +114,43 @@ namespace _1_EquiLeader
 
 			return counter;
 		}
+
+		public static int solution2(int[] A)
+		{
+			var stack = new Stack<int>();
+
+			// count leader
+			for (var i = 0; i < A.Length; i++)
+			{
+				if (stack.Count == 0)
+					stack.Push(A[i]);
+				else if (stack.Peek() != A[i])
+					stack.Pop();
+				else
+					stack.Push(A[i]);
+			}
+			if (stack.Count == 0)
+				return 0;
+			var leader = stack.Pop();
+
+			var totalLeadersCount = 0;
+			for (var i = 0; i < A.Length; i++)
+				if (A[i] == leader)
+					totalLeadersCount++;
+
+			var leadersCount = 0;
+			var ret = 0;
+			for (var i = 0; i < A.Length - 1; i++)
+			{
+				if (A[i] == leader)
+					leadersCount++;
+
+				if (leadersCount > (i + 1) / 2 &&
+						(totalLeadersCount - leadersCount) > (A.Length - i - 1) / 2)
+					ret++;
+			}
+
+			return ret;
+		}
 	}
 }
