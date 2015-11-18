@@ -104,7 +104,6 @@ namespace _0_MaxDoubleSliceSum
 			}
 
 			return result;
-
 		}
 	}
 }
