@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("0_CountingDivisors")]
+[assembly: AssemblyTitle("0_MinPerimeterRectangle")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("0_CountingDivisors")]
+[assembly: AssemblyProduct("0_MinPerimeterRectangle")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("989e4cb3-4d3d-471e-8807-83a42a83732e")]
+[assembly: Guid("e0e8dbaf-bce6-4d20-bcf1-09dde7a4c00d")]
 
 // Version information for an assembly consists of the following four values:
 //
