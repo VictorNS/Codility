@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_MinPerimeterRectangle", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_CountFactors", "Lesson8\1_CountFactors\1_CountFactors.csproj", "{9EC615AA-CB95-4AD7-9CC3-8153D7A39973}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson9", "Lesson9", "{F6B9A727-D1E0-4944-A8BF-4A3E388D2DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_CountSemiprimes", "Lesson9\0_CountSemiprimes\0_CountSemiprimes.csproj", "{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +149,10 @@ Global
 		{9EC615AA-CB95-4AD7-9CC3-8153D7A39973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EC615AA-CB95-4AD7-9CC3-8153D7A39973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EC615AA-CB95-4AD7-9CC3-8153D7A39973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,5 +178,6 @@ Global
 		{FFC144BF-83E8-4EA6-A3EC-89E8D8DEBE11} = {88188430-17C8-4E72-A614-EA47250532C2}
 		{EF3A9B9E-A79F-4B94-88B6-FDB15BDF5017} = {B3A2017E-F6B3-4558-B817-894ECBD990D4}
 		{9EC615AA-CB95-4AD7-9CC3-8153D7A39973} = {B3A2017E-F6B3-4558-B817-894ECBD990D4}
+		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E} = {F6B9A727-D1E0-4944-A8BF-4A3E388D2DFB}
 	EndGlobalSection
 EndGlobal
