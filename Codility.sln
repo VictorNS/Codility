@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson9", "Lesson9", "{F6B9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_CountSemiprimes", "Lesson9\0_CountSemiprimes\0_CountSemiprimes.csproj", "{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_CountNonDivisible", "Lesson9\1_CountNonDivisible\1_CountNonDivisible.csproj", "{564CF97A-6175-469F-9C37-2BCFF0AB48B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564CF97A-6175-469F-9C37-2BCFF0AB48B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564CF97A-6175-469F-9C37-2BCFF0AB48B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564CF97A-6175-469F-9C37-2BCFF0AB48B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564CF97A-6175-469F-9C37-2BCFF0AB48B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -179,5 +185,6 @@ Global
 		{EF3A9B9E-A79F-4B94-88B6-FDB15BDF5017} = {B3A2017E-F6B3-4558-B817-894ECBD990D4}
 		{9EC615AA-CB95-4AD7-9CC3-8153D7A39973} = {B3A2017E-F6B3-4558-B817-894ECBD990D4}
 		{175DA381-CEBF-4DDD-B189-2C0BA2525E9E} = {F6B9A727-D1E0-4944-A8BF-4A3E388D2DFB}
+		{564CF97A-6175-469F-9C37-2BCFF0AB48B5} = {F6B9A727-D1E0-4944-A8BF-4A3E388D2DFB}
 	EndGlobalSection
 EndGlobal
