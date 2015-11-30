@@ -6,9 +6,7 @@ namespace _0_ChocolatesByNumbers
 	{
 		static void Main()
 		{
-			//Console.WriteLine(solution(10, 4));
-			/*for the input (947853, 4453) the solution returned a wrong answer
-			 *(got -16657 expected 947853)*/
+			Console.WriteLine(solution(10, 4));
 			Console.WriteLine(solution(947853, 4453));
 		}
 
