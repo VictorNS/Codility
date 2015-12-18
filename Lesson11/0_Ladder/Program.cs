@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace _0_Ladder
 {
@@ -21,30 +22,32 @@ namespace _0_Ladder
 
 			public int[] solution(int[] A, int[] B)
 			{
-				var maxFib = 1;
+				var maxApreparedFib = 1;
 				var fib = new List<int>() { 0, 1 };
+				int bMax = B.Max();
+				int modLimit = (1 << bMax) - 1;
 
 				var result = new int[A.Length];
 				for (int i = 0; i < A.Length; i++)
 				{
-					if (A[i] + 1 > maxFib)
+					if (A[i] + 1 > maxApreparedFib)
 					{
-						calcFib(fib, A[i] + 1, ref maxFib);
+						calcFib(fib, modLimit, A[i] + 1, ref maxApreparedFib);
 					}
 					var aa = fib[A[i] + 1];
 					var bb = (1 << B[i]);
-					result[i] = aa % bb;
+					result[i] = aa & (bb - 1); // aa % bb
 				}
 				return result;
 			}
 
-			void calcFib(List<int> fib, int limit, ref int maxFib)
+			void calcFib(List<int> fib, int modLimit, int topLimit, ref int maxApreparedFib)
 			{
-				for (int i = maxFib + 1; i <= limit; i++)
+				for (int i = maxApreparedFib + 1; i <= topLimit; i++)
 				{
-					fib.Add(fib[i - 1] + fib[i - 2]);
+					fib.Add((fib[i - 1] + fib[i - 2]) & modLimit);
 				}
-				maxFib = limit;
+				maxApreparedFib = topLimit;
 			}
 		}
 
