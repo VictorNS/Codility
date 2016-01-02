@@ -4,7 +4,7 @@ namespace _1_BinaryGap
 {
 	class Program
 	{
-		static void Main(string[] args)
+		static void Main()
 		{
 			Run(1041);
 			Run(6);
@@ -15,7 +15,7 @@ namespace _1_BinaryGap
 			Console.WriteLine("Input: {0}", input);
 			var s = new Solution();
 			var result = s.solution(input);
-			Console.WriteLine("Rssult: {0}", result);
+			Console.WriteLine("Result: {0}", result);
 		}
 	}
 
