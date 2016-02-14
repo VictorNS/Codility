@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_PassingCars", "5_PrefixSu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_GenomicRangeQuery", "5_PrefixSums\3_GenomicRangeQuery\3_GenomicRangeQuery.csproj", "{F0D24D50-DE62-4D17-BE3A-6EA0EEF068E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_MinAvgTwoSlice", "5_PrefixSums\4_MinAvgTwoSlice\4_MinAvgTwoSlice.csproj", "{9BDF8D7A-0A03-4761-AFF2-3B5552514E16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{F0D24D50-DE62-4D17-BE3A-6EA0EEF068E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0D24D50-DE62-4D17-BE3A-6EA0EEF068E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0D24D50-DE62-4D17-BE3A-6EA0EEF068E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDF8D7A-0A03-4761-AFF2-3B5552514E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDF8D7A-0A03-4761-AFF2-3B5552514E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDF8D7A-0A03-4761-AFF2-3B5552514E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDF8D7A-0A03-4761-AFF2-3B5552514E16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,5 +114,6 @@ Global
 		{BE752761-D32F-4A53-9D77-B329E719649A} = {A0843CA7-07B5-45B7-A02E-9437779EBFD6}
 		{3D576418-7F36-4F01-A8E6-ED07CA3FC659} = {A0843CA7-07B5-45B7-A02E-9437779EBFD6}
 		{F0D24D50-DE62-4D17-BE3A-6EA0EEF068E3} = {A0843CA7-07B5-45B7-A02E-9437779EBFD6}
+		{9BDF8D7A-0A03-4761-AFF2-3B5552514E16} = {A0843CA7-07B5-45B7-A02E-9437779EBFD6}
 	EndGlobalSection
 EndGlobal
